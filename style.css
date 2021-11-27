@@ -1,63 +1,67 @@
-.grid-container {
-        
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: white;
-    padding: 5px;
-    height: 100%;
-  }
-  .grid-item1{
-  
-      background-color: royalblue;
-      display: grid;
-  }
-  .grid-item{
-  
-  background-color: lightgrey;
-  display: grid;
-  }
-  h1, h3{
-      color: white;
-      font-weight: bolder;
-      margin-top: 25%;
-  }
-  span{
-      color: black;
-      font-weight: bolder;
-  }
-  p{
-      color: white;
-      
-  }
-  li{
-      color: white;
-      
-  }
-  .bdy{
-      margin-left: 20%;
-  }
-  .dd{
-      margin-left: 25%;
-      margin-top: 10%;
-  }
-  #pp{
-      color: black;
-  }
-  #show{
-      color: black;
-      font-size: xx-large;
-  }
-  #show1,#show3{
-      color: black;
-      font-size: medium;
-  }
-  #show2{
-      color: black;
-      font-size: xx-large;
-  }
-  #tt{
-      margin-left: 20%;
-      margin-top: 20%;
-  }
-     
-    
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(91, 27, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+input
+{
+    border-bottom: 5px solid yellow;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 2rem;
+    padding-left: 20%;
+    width: 300px
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main div
+{
+    color: white;
+    text-align: center;
+    margin-top:5%;
+}
+
+.city
+{
+    font-size: 2.5em;
+}
+
+.date{
+    margin-top: -1px;
+    padding: 0px;
+    font-size: 1.35rem;
+    font-weight: lighter;
+}
+
+.temp
+{
+    font-weight: 700;
+    text-shadow: 0px 10px 0px rgba(0, 0, 0, 0.4);
+    font-size:5em;
+}
+
+.weather {
+    padding-top: 5vh;
+    font-size: 2em;
+    font-weight: 550;
+    font-style: italic;
+}
+
+.hi-low {
+    font-size: 1.2rem;
+    text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
